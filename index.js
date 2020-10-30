@@ -1,5 +1,5 @@
 const Discord = require('discord.js')
-const key = require('./key')
+const key = require('./token')
 
 
 const bot = new Discord.Client();
