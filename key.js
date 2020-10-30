@@ -2,7 +2,7 @@
 // ========
 module.exports = {
     generateKey: function () {
-      return 'Testing56';
+      return 'Test1ng56';
     }
   };
   
