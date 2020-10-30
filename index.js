@@ -6,7 +6,7 @@ const bot = new Discord.Client();
 const token = key.generateKey() //set your own key here
 console.log(token)
 bot.on('ready',() =>{
-    console.log('bot logged in')
+    console.log('bot logged in.')
 })
 bot.login(token);
 
