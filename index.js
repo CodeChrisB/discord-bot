@@ -4,7 +4,7 @@ const key = require('./key')
 
 const bot = new Discord.Client();
 const token = key.generateKey() //set your own key here
-
+console.log(token)
 bot.on('ready',() =>{
     console.log('bot logged in')
 })
@@ -56,13 +56,13 @@ function help(msg,args){
 function clear(msg,args){
     let num =2;
     if(args[0]){
-        num = parseInt(args[0])+1;
+        num = Math.min(parseInt(args[0])+1,100);
     }
 
     if(args.length ==1){
         console.log(num)
         msg.channel.bulkDelete(num);
-        msg.channel.send(`deleted ${args[0]} posts for you`)
+        msg.channel.send(`deleted ${num} posts for you`)
     }else{
         //get 2nd argument delete n message from this user
     }
