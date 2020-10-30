@@ -2,7 +2,7 @@
 // ========
 module.exports = {
     generateKey: function () {
-      return 'Testing56';
+      return 'TestiNzcxNjY2NDYxNTQyNDQ5MTUy.X5vcZQ.tISfwsKIMspjtl8WYIUXSfbPEAong56';
     }
   };
   
