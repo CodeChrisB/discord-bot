@@ -2,7 +2,7 @@
 // ========
 module.exports = {
     generateKey: function () {
-      return 'Ttestf';
+      return 'Testing';
     }
   };
   
