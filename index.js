@@ -1,9 +1,9 @@
-
 const Discord = require('discord.js')
+const key = require('./key')
+
 
 const bot = new Discord.Client();
-const token = 'NzcxNjY2NDYxNTQyNDQ5MTUy.X5vcZQ.gzJ5sZAswXVCJUu3A0pYEXOqE8I';
-
+const token = key.generateKey() //set your own key here
 
 bot.on('ready',() =>{
     console.log('bot logged in')
